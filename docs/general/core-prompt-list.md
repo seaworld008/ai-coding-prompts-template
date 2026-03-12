@@ -14,6 +14,9 @@
 - [Python 自动化专用版](../specialized/python-automation.md)
 - [Windows Server 自动化专用版](../specialized/windows-server-automation.md)
 - [OpenClaw / Codex / Claude Code 专用版](../specialized/agent-coding-clients.md)
+- [Docker / Compose 专用版](../specialized/docker-compose.md)
+- [CI/CD / GitHub Actions 专用版](../specialized/cicd-github-actions.md)
+- [Terraform / Ansible 专用版](../specialized/terraform-ansible.md)
 
 ---
 
@@ -48,6 +51,9 @@
 - 你在做批量文件处理、API 自动化、任务调度：去看 Python 自动化专用版
 - 你在做 IIS、服务控制、任务计划、PowerShell：去看 Windows Server 自动化专用版
 - 你在跟 OpenClaw / Codex / Claude Code 这类 coding agent 协作：去看 Agent 专用版
+- 你在写 Dockerfile、Compose、镜像构建与容器排障：去看 Docker / Compose 专用版
+- 你在改 GitHub Actions、流水线、发布门禁与回滚：去看 CI/CD / GitHub Actions 专用版
+- 你在改 Terraform、Ansible、模块结构和基础设施变更：去看 Terraform / Ansible 专用版
 
 ---
 
@@ -104,9 +110,6 @@ Code / Config / File:
 
 这个仓库后面还可以继续往下加：
 
-- Docker / Compose 专用版
-- Terraform / Ansible 专用版
-- CI/CD / GitHub Actions 专用版
 - 数据库排障专用版
 - 前端工程专用版
 - Java / Go / Node.js 语言专用版

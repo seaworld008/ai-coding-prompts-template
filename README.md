@@ -94,6 +94,9 @@ Now here is my actual task:
 - [Python 自动化专用版](./docs/specialized/python-automation.md)
 - [Windows Server 自动化专用版](./docs/specialized/windows-server-automation.md)
 - [OpenClaw / Codex / Claude Code 专用版](./docs/specialized/agent-coding-clients.md)
+- [Docker / Compose 专用版](./docs/specialized/docker-compose.md)
+- [CI/CD / GitHub Actions 专用版](./docs/specialized/cicd-github-actions.md)
+- [Terraform / Ansible 专用版](./docs/specialized/terraform-ansible.md)
 
 ### 设计与规划
 
@@ -105,6 +108,8 @@ Now here is my actual task:
 - [开源增强计划](./docs/plans/2026-03-12-open-source-polish-plan.md)
 - [社区模板设计](./docs/plans/2026-03-12-community-templates-design.md)
 - [社区模板计划](./docs/plans/2026-03-12-community-templates-plan.md)
+- [专题扩展设计](./docs/plans/2026-03-12-specialized-expansion-design.md)
+- [专题扩展计划](./docs/plans/2026-03-12-specialized-expansion-plan.md)
 
 ---
 
@@ -171,6 +176,9 @@ Code / Config / File:
 - Python 自动化
 - Windows Server 自动化
 - OpenClaw / Codex / Claude Code
+- Docker / Compose
+- CI/CD / GitHub Actions
+- Terraform / Ansible
 
 ---
 
