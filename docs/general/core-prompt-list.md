@@ -8,17 +8,17 @@
 
 如果你想按专题快速使用，请直接跳到：
 
-- [Kubernetes 专用版](../specialized/kubernetes.md)
-- [Nginx 专用版](../specialized/nginx.md)
-- [Shell / Bash 专用版](../specialized/shell-bash.md)
-- [Python 自动化专用版](../specialized/python-automation.md)
-- [Windows Server 自动化专用版](../specialized/windows-server-automation.md)
 - [OpenClaw / Codex / Claude Code 专用版](../specialized/agent-coding-clients.md)
+- [Python 自动化专用版](../specialized/python-automation.md)
 - [Docker / Compose 专用版](../specialized/docker-compose.md)
 - [CI/CD / GitHub Actions 专用版](../specialized/cicd-github-actions.md)
-- [Terraform / Ansible 专用版](../specialized/terraform-ansible.md)
+- [Kubernetes 专用版](../specialized/kubernetes.md)
 - [SQL 数据库专用版](../specialized/sql-database.md)
+- [Shell / Bash 专用版](../specialized/shell-bash.md)
+- [Terraform / Ansible 专用版](../specialized/terraform-ansible.md)
+- [Nginx 专用版](../specialized/nginx.md)
 - [NoSQL 数据库专用版](../specialized/nosql-database.md)
+- [Windows Server 自动化专用版](../specialized/windows-server-automation.md)
 
 ---
 
