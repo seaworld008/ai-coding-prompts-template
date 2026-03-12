@@ -638,12 +638,3 @@ Return the final result in a directly usable form.
 
 ---
 
-# 后续还能继续扩展
-
-- Kubernetes 专用版
-- Nginx 专用版
-- Shell / Bash 专用版
-- Python 自动化专用版
-- Windows Server 自动化专用版
-- OpenClaw / Codex / Claude Code 专用版
-
