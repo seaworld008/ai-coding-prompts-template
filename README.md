@@ -4,6 +4,8 @@
 
 Open-source AI coding prompt template repo with Chinese explanations, English prompts, and specialized engineering playbooks.
 
+面向真实工程场景整理，适合作为个人提示词资产库、团队协作基线，或者直接二次改造为你的公开 GitHub 模板仓库。
+
 这个仓库延续你当前这份清单的写法：
 
 - 提示词全部英文
@@ -19,6 +21,39 @@ Open-source AI coding prompt template repo with Chinese explanations, English pr
 - 保留“中文说明 + 英文提示词”的高可复制结构
 - 同时提供通用版和专用版，便于按场景快速取用
 - 内容面向真实工程交付，而不是泛泛提示词堆砌
+
+---
+
+## 适合谁用
+
+- 想把常用 AI 编程提示词沉淀成仓库的人
+- 想做团队内部 AI 编程规范基线的人
+- 想把提示词内容做成开源项目的人
+- 想持续扩展专题版、按技术域沉淀模板的人
+
+---
+
+## 仓库结构
+
+```text
+.
+├─ README.md
+├─ CONTRIBUTING.md
+├─ SECURITY.md
+├─ CODE_OF_CONDUCT.md
+├─ docs/
+│  ├─ general/
+│  ├─ specialized/
+│  └─ plans/
+└─ AI编程高频增强提示词清单_2026-03-10.md
+```
+
+你可以把它理解成：
+
+- `README.md`：项目首页和导航入口
+- `docs/general/`：通用版清单
+- `docs/specialized/`：专用版专题文档
+- `docs/plans/`：仓库演进设计和实施记录
 
 ---
 
@@ -61,6 +96,10 @@ Now here is my actual task:
 
 - [仓库设计文档](./docs/plans/2026-03-12-ai-prompt-repo-design.md)
 - [仓库实施计划](./docs/plans/2026-03-12-ai-prompt-repo-plan.md)
+- [README 与元信息设计](./docs/plans/2026-03-12-readme-metadata-design.md)
+- [README 与元信息计划](./docs/plans/2026-03-12-readme-metadata-plan.md)
+- [开源增强设计](./docs/plans/2026-03-12-open-source-polish-design.md)
+- [开源增强计划](./docs/plans/2026-03-12-open-source-polish-plan.md)
 
 ---
 
@@ -151,6 +190,11 @@ Code / Config / File:
 - 避免与现有条目高重复
 
 更多细节见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+如果你关心安全披露和社区参与规范，也可以先看：
+
+- [SECURITY.md](./SECURITY.md)
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 
 ---
 
