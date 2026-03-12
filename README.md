@@ -27,8 +27,8 @@ Open-source AI coding prompt template repo with Chinese explanations, English pr
 | Codex、Claude Code、OpenClaw 协作 | [OpenClaw / Codex / Claude Code 专用版](./docs/specialized/agent-coding-clients.md) |
 | Python 脚本自动化、API 批处理、定时任务 | [Python 自动化专用版](./docs/specialized/python-automation.md) |
 | Dockerfile、Compose、镜像构建、容器排障 | [Docker / Compose 专用版](./docs/specialized/docker-compose.md) |
-| GitHub Actions、发布门禁、流水线失败排障 | [CI/CD / GitHub Actions 专用版](./docs/specialized/cicd-github-actions.md) |
 | Kubernetes、Helm、Ingress、Pod 排障 | [Kubernetes 专用版](./docs/specialized/kubernetes.md) |
+| GitHub Actions、发布门禁、流水线失败排障 | [CI/CD / GitHub Actions 专用版](./docs/specialized/cicd-github-actions.md) |
 | 表结构、SQL、索引、事务、慢查询 | [SQL 数据库专用版](./docs/specialized/sql-database.md) |
 | Shell 脚本、cron、批处理、命令链 | [Shell / Bash 专用版](./docs/specialized/shell-bash.md) |
 | Terraform、Ansible、IaC 变更与漂移治理 | [Terraform / Ansible 专用版](./docs/specialized/terraform-ansible.md) |
@@ -154,8 +154,8 @@ Code / Config / File:
 - [OpenClaw / Codex / Claude Code 专用版](./docs/specialized/agent-coding-clients.md)
 - [Python 自动化专用版](./docs/specialized/python-automation.md)
 - [Docker / Compose 专用版](./docs/specialized/docker-compose.md)
-- [CI/CD / GitHub Actions 专用版](./docs/specialized/cicd-github-actions.md)
 - [Kubernetes 专用版](./docs/specialized/kubernetes.md)
+- [CI/CD / GitHub Actions 专用版](./docs/specialized/cicd-github-actions.md)
 - [SQL 数据库专用版](./docs/specialized/sql-database.md)
 - [Shell / Bash 专用版](./docs/specialized/shell-bash.md)
 - [Terraform / Ansible 专用版](./docs/specialized/terraform-ansible.md)
