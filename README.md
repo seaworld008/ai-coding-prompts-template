@@ -2,12 +2,42 @@
 
 一个适合直接开源到 GitHub 的 AI 编程提示词样板仓库。
 
+Open-source AI coding prompt template repo with Chinese explanations, English prompts, and specialized engineering playbooks.
+
 这个仓库延续你当前这份清单的写法：
 
 - 提示词全部英文
 - 说明全部中文
 - 结构尽量工程化、可直接复制
 - Markdown 风格保持简洁，不引入额外站点工具
+
+---
+
+## 仓库亮点
+
+- 适合直接作为 GitHub 开源模板仓库使用
+- 保留“中文说明 + 英文提示词”的高可复制结构
+- 同时提供通用版和专用版，便于按场景快速取用
+- 内容面向真实工程交付，而不是泛泛提示词堆砌
+
+---
+
+## 快速开始
+
+如果你是第一次进入这个仓库，最推荐这样使用：
+
+1. 从 [通用版总览](./docs/general/core-prompt-list.md) 里挑一条最接近你的任务
+2. 如果任务属于明确技术域，再叠加一个 [专用版](./docs/specialized/)
+3. 把你的真实上下文直接接在提示词后面发给 AI
+
+最短可直接复制的使用方式：
+
+```text
+[增强提示词]
+
+Now here is my actual task:
+[你的具体需求]
+```
 
 ---
 
@@ -49,16 +79,7 @@
 
 ## 使用方式
 
-最简单的用法：
-
-```text
-[增强提示词]
-
-Now here is my actual task:
-[你的具体需求]
-```
-
-或者：
+如果你需要把上下文提供得更完整，可以用这个结构：
 
 ```text
 [增强提示词]
