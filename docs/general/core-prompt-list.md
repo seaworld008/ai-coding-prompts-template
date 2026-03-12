@@ -17,6 +17,8 @@
 - [Docker / Compose 专用版](../specialized/docker-compose.md)
 - [CI/CD / GitHub Actions 专用版](../specialized/cicd-github-actions.md)
 - [Terraform / Ansible 专用版](../specialized/terraform-ansible.md)
+- [SQL 数据库专用版](../specialized/sql-database.md)
+- [NoSQL 数据库专用版](../specialized/nosql-database.md)
 
 ---
 
@@ -54,6 +56,8 @@
 - 你在写 Dockerfile、Compose、镜像构建与容器排障：去看 Docker / Compose 专用版
 - 你在改 GitHub Actions、流水线、发布门禁与回滚：去看 CI/CD / GitHub Actions 专用版
 - 你在改 Terraform、Ansible、模块结构和基础设施变更：去看 Terraform / Ansible 专用版
+- 你在做表结构、SQL 查询、索引、事务、迁移和慢查询优化：去看 SQL 数据库专用版
+- 你在做 Redis、MongoDB、DynamoDB、Cassandra、Elasticsearch 这类模型、热点和容量问题：去看 NoSQL 数据库专用版
 
 ---
 

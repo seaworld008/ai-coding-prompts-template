@@ -97,6 +97,8 @@ Now here is my actual task:
 - [Docker / Compose 专用版](./docs/specialized/docker-compose.md)
 - [CI/CD / GitHub Actions 专用版](./docs/specialized/cicd-github-actions.md)
 - [Terraform / Ansible 专用版](./docs/specialized/terraform-ansible.md)
+- [SQL 数据库专用版](./docs/specialized/sql-database.md)
+- [NoSQL 数据库专用版](./docs/specialized/nosql-database.md)
 
 ### 设计与规划
 
@@ -110,6 +112,8 @@ Now here is my actual task:
 - [社区模板计划](./docs/plans/2026-03-12-community-templates-plan.md)
 - [专题扩展设计](./docs/plans/2026-03-12-specialized-expansion-design.md)
 - [专题扩展计划](./docs/plans/2026-03-12-specialized-expansion-plan.md)
+- [数据库拆分设计](./docs/plans/2026-03-12-database-split-design.md)
+- [数据库拆分计划](./docs/plans/2026-03-12-database-split-plan.md)
 
 ---
 
@@ -179,6 +183,8 @@ Code / Config / File:
 - Docker / Compose
 - CI/CD / GitHub Actions
 - Terraform / Ansible
+- SQL 数据库
+- NoSQL 数据库
 
 ---
 
