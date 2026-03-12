@@ -35,7 +35,7 @@ Confirm all planned directories and root files exist and are named consistently.
 ### Task 2: Normalize the main prompt collection
 
 **Files:**
-- Modify: `AI编程高频增强提示词清单_2026-03-10.md`
+- Move: `AI编程高频增强提示词清单_2026-03-10.md` -> `docs/archive/2026-03-10-original-prompt-list.md`
 - Create: `docs/general/core-prompt-list.md`
 
 **Step 1: Preserve the original source**

@@ -147,7 +147,7 @@ Code / Config / File:
 ### 通用入口
 
 - [通用版总览](./docs/general/core-prompt-list.md)
-- [原始主清单快照](./AI编程高频增强提示词清单_2026-03-10.md)
+- [原始主清单快照](./docs/archive/2026-03-10-original-prompt-list.md)
 
 ### 专题入口
 
@@ -211,15 +211,16 @@ cd ai-coding-prompts-template
 ├─ SUPPORT.md
 ├─ MAINTAINERS.md
 ├─ docs/
+│  ├─ archive/
 │  ├─ general/
 │  ├─ specialized/
 │  └─ plans/
-└─ AI编程高频增强提示词清单_2026-03-10.md
 ```
 
 关键目录说明：
 
 - `README.md`：仓库首页与主要入口
+- `docs/archive/`：历史版本与归档快照
 - `docs/general/`：通用版总览
 - `docs/specialized/`：按技术域划分的专用版文档
 - `docs/plans/`：仓库演进设计与实施记录
