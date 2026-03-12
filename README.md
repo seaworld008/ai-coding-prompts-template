@@ -112,6 +112,27 @@ Code / Config / File:
 
 ---
 
+## 按任务选择指南
+
+如果你不确定先看哪篇，可以按下面这个表快速进入：
+
+| 你的任务 | 推荐入口 |
+|---|---|
+| 通用开发、Bug 修复、重构、测试补全 | [通用版总览](./docs/general/core-prompt-list.md) |
+| Kubernetes、Helm、Ingress、Pod 排障 | [Kubernetes 专用版](./docs/specialized/kubernetes.md) |
+| 反向代理、TLS、缓存、location / rewrite | [Nginx 专用版](./docs/specialized/nginx.md) |
+| Shell 脚本、cron、批处理、命令链 | [Shell / Bash 专用版](./docs/specialized/shell-bash.md) |
+| Python 脚本自动化、API 批处理、定时任务 | [Python 自动化专用版](./docs/specialized/python-automation.md) |
+| Windows Server、PowerShell、IIS、任务计划 | [Windows Server 自动化专用版](./docs/specialized/windows-server-automation.md) |
+| Codex、Claude Code、OpenClaw 协作 | [OpenClaw / Codex / Claude Code 专用版](./docs/specialized/agent-coding-clients.md) |
+| Dockerfile、Compose、镜像构建、容器排障 | [Docker / Compose 专用版](./docs/specialized/docker-compose.md) |
+| GitHub Actions、发布门禁、流水线失败排障 | [CI/CD / GitHub Actions 专用版](./docs/specialized/cicd-github-actions.md) |
+| Terraform、Ansible、IaC 变更与漂移治理 | [Terraform / Ansible 专用版](./docs/specialized/terraform-ansible.md) |
+| 表结构、SQL、索引、事务、慢查询 | [SQL 数据库专用版](./docs/specialized/sql-database.md) |
+| Redis、MongoDB、DynamoDB、热点与容量问题 | [NoSQL 数据库专用版](./docs/specialized/nosql-database.md) |
+
+---
+
 ## 常见使用示例
 
 ### 示例 1：修一个线上 Bug
