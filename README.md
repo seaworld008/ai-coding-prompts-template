@@ -43,38 +43,35 @@ Open-source AI coding prompt template repo with Chinese explanations, English pr
 
 ---
 
-## 安装与获取
+## 按任务选择指南
 
-这个仓库是 Markdown 文档仓库，不需要编译或安装依赖。
+如果你不确定先看哪篇，可以按下面这个表快速进入：
 
-你可以直接：
-
-1. 在 GitHub 上浏览文档
-2. 克隆到本地长期维护
-3. 点击 “Use this template” 二次创建你自己的版本
-
-克隆方式：
-
-```bash
-git clone git@github.com:seaworld008/ai-coding-prompts-template.git
-cd ai-coding-prompts-template
-```
+| 你的任务 | 推荐入口 |
+|---|---|
+| 通用开发、Bug 修复、重构、测试补全 | [通用版总览](./docs/general/core-prompt-list.md) |
+| Kubernetes、Helm、Ingress、Pod 排障 | [Kubernetes 专用版](./docs/specialized/kubernetes.md) |
+| 反向代理、TLS、缓存、location / rewrite | [Nginx 专用版](./docs/specialized/nginx.md) |
+| Shell 脚本、cron、批处理、命令链 | [Shell / Bash 专用版](./docs/specialized/shell-bash.md) |
+| Python 脚本自动化、API 批处理、定时任务 | [Python 自动化专用版](./docs/specialized/python-automation.md) |
+| Windows Server、PowerShell、IIS、任务计划 | [Windows Server 自动化专用版](./docs/specialized/windows-server-automation.md) |
+| Codex、Claude Code、OpenClaw 协作 | [OpenClaw / Codex / Claude Code 专用版](./docs/specialized/agent-coding-clients.md) |
+| Dockerfile、Compose、镜像构建、容器排障 | [Docker / Compose 专用版](./docs/specialized/docker-compose.md) |
+| GitHub Actions、发布门禁、流水线失败排障 | [CI/CD / GitHub Actions 专用版](./docs/specialized/cicd-github-actions.md) |
+| Terraform、Ansible、IaC 变更与漂移治理 | [Terraform / Ansible 专用版](./docs/specialized/terraform-ansible.md) |
+| 表结构、SQL、索引、事务、慢查询 | [SQL 数据库专用版](./docs/specialized/sql-database.md) |
+| Redis、MongoDB、DynamoDB、热点与容量问题 | [NoSQL 数据库专用版](./docs/specialized/nosql-database.md) |
 
 ---
 
-## 前置条件
+## 快速开始
 
-使用这个仓库前，通常只需要这些前提：
+如果你第一次使用这个仓库，最推荐走这条路径：
 
-- 你有一个可用的 AI 工具或 coding assistant
-- 你知道自己的任务大概属于什么场景
-- 你能提供尽量真实的上下文，例如代码、日志、配置、需求或报错信息
-
-推荐但不是必须：
-
-- GitHub 账号，用于 fork、提交 issue 或 PR
-- 一个顺手的 Markdown 编辑器
-- 基本的工程判断能力，用来筛选 AI 输出是否适合你的环境
+1. 先看上面的“按任务选择指南”，找到最接近当前任务的入口
+2. 打开对应的通用版或专用版文档
+3. 复制提示词，并把你的真实上下文拼接进去
+4. 如果 AI 输出涉及生产环境，再做人工审查和实际验证
 
 ---
 
@@ -109,27 +106,6 @@ Task:
 Code / Config / File:
 [你的代码、配置、日志、文档内容]
 ```
-
----
-
-## 按任务选择指南
-
-如果你不确定先看哪篇，可以按下面这个表快速进入：
-
-| 你的任务 | 推荐入口 |
-|---|---|
-| 通用开发、Bug 修复、重构、测试补全 | [通用版总览](./docs/general/core-prompt-list.md) |
-| Kubernetes、Helm、Ingress、Pod 排障 | [Kubernetes 专用版](./docs/specialized/kubernetes.md) |
-| 反向代理、TLS、缓存、location / rewrite | [Nginx 专用版](./docs/specialized/nginx.md) |
-| Shell 脚本、cron、批处理、命令链 | [Shell / Bash 专用版](./docs/specialized/shell-bash.md) |
-| Python 脚本自动化、API 批处理、定时任务 | [Python 自动化专用版](./docs/specialized/python-automation.md) |
-| Windows Server、PowerShell、IIS、任务计划 | [Windows Server 自动化专用版](./docs/specialized/windows-server-automation.md) |
-| Codex、Claude Code、OpenClaw 协作 | [OpenClaw / Codex / Claude Code 专用版](./docs/specialized/agent-coding-clients.md) |
-| Dockerfile、Compose、镜像构建、容器排障 | [Docker / Compose 专用版](./docs/specialized/docker-compose.md) |
-| GitHub Actions、发布门禁、流水线失败排障 | [CI/CD / GitHub Actions 专用版](./docs/specialized/cicd-github-actions.md) |
-| Terraform、Ansible、IaC 变更与漂移治理 | [Terraform / Ansible 专用版](./docs/specialized/terraform-ansible.md) |
-| 表结构、SQL、索引、事务、慢查询 | [SQL 数据库专用版](./docs/specialized/sql-database.md) |
-| Redis、MongoDB、DynamoDB、热点与容量问题 | [NoSQL 数据库专用版](./docs/specialized/nosql-database.md) |
 
 ---
 
@@ -215,6 +191,41 @@ Code / Config / File:
 
 ---
 
+## 安装与获取
+
+这个仓库是 Markdown 文档仓库，不需要编译或安装依赖。
+
+你可以直接：
+
+1. 在 GitHub 上浏览文档
+2. 克隆到本地长期维护
+3. 点击 “Use this template” 二次创建你自己的版本
+
+克隆方式：
+
+```bash
+git clone git@github.com:seaworld008/ai-coding-prompts-template.git
+cd ai-coding-prompts-template
+```
+
+---
+
+## 前置条件
+
+使用这个仓库前，通常只需要这些前提：
+
+- 你有一个可用的 AI 工具或 coding assistant
+- 你知道自己的任务大概属于什么场景
+- 你能提供尽量真实的上下文，例如代码、日志、配置、需求或报错信息
+
+推荐但不是必须：
+
+- GitHub 账号，用于 fork、提交 issue 或 PR
+- 一个顺手的 Markdown 编辑器
+- 基本的工程判断能力，用来筛选 AI 输出是否适合你的环境
+
+---
+
 ## 仓库结构
 
 ```text
@@ -242,7 +253,7 @@ Code / Config / File:
 
 ---
 
-## 配置与维护约定
+## 维护约定
 
 如果你准备继续维护或二次改造这个仓库，建议保持这些约定：
 
