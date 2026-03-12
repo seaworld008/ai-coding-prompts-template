@@ -1,0 +1,41 @@
+name: Bug report
+description: 报告仓库中的错误、失效链接、危险建议或不准确内容
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你反馈问题。这个仓库主要是提示词和文档内容仓库，所以这里的“Bug”也包括：
+
+        - 失效链接
+        - 不准确说明
+        - 有风险的默认建议
+        - 与仓库格式不一致的内容
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 具体哪里有问题？请尽量直接说明。
+      placeholder: 某个文件中的某段内容会误导用户，或者某个链接已经失效。
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: 相关文件路径
+      description: 如果知道，请填写具体文件路径。
+      placeholder: docs/specialized/kubernetes.md
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你认为正确的结果
+      description: 你希望这里应该改成什么，或者至少应该怎么修正。
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充信息
+      description: 可选。补充上下文、截图、链接或更安全的替代建议。

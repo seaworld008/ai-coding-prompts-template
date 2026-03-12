@@ -41,6 +41,8 @@ Open-source AI coding prompt template repo with Chinese explanations, English pr
 ├─ CONTRIBUTING.md
 ├─ SECURITY.md
 ├─ CODE_OF_CONDUCT.md
+├─ SUPPORT.md
+├─ MAINTAINERS.md
 ├─ docs/
 │  ├─ general/
 │  ├─ specialized/
@@ -51,6 +53,7 @@ Open-source AI coding prompt template repo with Chinese explanations, English pr
 你可以把它理解成：
 
 - `README.md`：项目首页和导航入口
+- `SUPPORT.md` / `MAINTAINERS.md`：社区协作和维护说明
 - `docs/general/`：通用版清单
 - `docs/specialized/`：专用版专题文档
 - `docs/plans/`：仓库演进设计和实施记录
@@ -100,6 +103,8 @@ Now here is my actual task:
 - [README 与元信息计划](./docs/plans/2026-03-12-readme-metadata-plan.md)
 - [开源增强设计](./docs/plans/2026-03-12-open-source-polish-design.md)
 - [开源增强计划](./docs/plans/2026-03-12-open-source-polish-plan.md)
+- [社区模板设计](./docs/plans/2026-03-12-community-templates-design.md)
+- [社区模板计划](./docs/plans/2026-03-12-community-templates-plan.md)
 
 ---
 
@@ -195,6 +200,8 @@ Code / Config / File:
 
 - [SECURITY.md](./SECURITY.md)
 - [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+- [SUPPORT.md](./SUPPORT.md)
+- [MAINTAINERS.md](./MAINTAINERS.md)
 
 ---
 

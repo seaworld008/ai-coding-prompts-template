@@ -1,0 +1,43 @@
+name: Feature request
+description: 提议新增专题、增强清单结构或改进仓库体验
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎提出新的内容方向或仓库改进建议。
+
+        适合提交在这里的内容包括：
+
+        - 新的专用版主题
+        - 通用版结构增强
+        - README / 导航优化
+        - 开源协作体验优化
+  - type: input
+    id: summary
+    attributes:
+      label: 需求摘要
+      placeholder: 增加 Docker / Compose 专用版
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 为什么值得做
+      description: 说明这个功能或主题的实际价值。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你的建议方案
+      description: 可以写主题范围、期望结构或你认为应该包含的条目。
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: 参考场景或示例
+      description: 可选。补充使用场景、示例仓库或参考文档。

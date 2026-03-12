@@ -1,0 +1,50 @@
+name: Prompt submission
+description: 提交新的提示词条目、模板或专题内容草案
+title: "[Prompt] "
+labels:
+  - prompt
+body:
+  - type: markdown
+    attributes:
+      value: |
+        如果你想直接贡献新的提示词内容，建议按当前仓库风格来提交：
+
+        - 中文说明
+        - 英文提示词
+        - 明确用途
+        - 尽量可直接复制
+  - type: input
+    id: category
+    attributes:
+      label: 内容分类
+      description: 这属于哪个区域？
+      placeholder: 通用版 / Kubernetes / Nginx / 新专题
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: 条目标题
+      placeholder: 生产级 YAML 审视版
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: 用途说明
+      description: 请用中文描述这条提示词适合什么场景。
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt 内容
+      description: 请直接粘贴英文提示词。
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注
+      description: 可选。补充边界、变体或推荐放置位置。
